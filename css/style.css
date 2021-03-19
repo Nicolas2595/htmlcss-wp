@@ -12,18 +12,46 @@ body {
     margin: 15%;
     
 }
-
+/*header*/
 header {
-    height: 100px;
+    /*height: 100px;*/
     margin-bottom: 20px;
-    background-color: #E470FF;
+    /*background-color: #E470FF;*/
+}
+
+/*nav {
+    height: 100px;
+}*/
+
+.list-inline > li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: grey;
 }
 
 .generico {
-    height: 300px;
-    background-color: #e1d67a;
+    height: 400px;
+    /*background-color: #e1d67a;*/
+    background-image: url('../immagini/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 1);
 }
 
+.rettangolo {
+    height: 100px;
+    width: 350px;
+    margin-left: 80px;
+    padding-top: 300px;
+    color: white;
+}
+
+/*main*/
 main {
     margin-top: 20px;
     background-color: #0087fd;
@@ -68,7 +96,7 @@ main::after {
     margin-bottom: 10px;
     background-color: #abcfe7;
 }
-
+/*footer*/
 footer {
     height: 50px;
     margin-top: 10px;
