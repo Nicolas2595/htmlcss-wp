@@ -10,6 +10,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;*/
     margin: 0 15%;
+    font-family: 'Montserrat', sans-serif;
     
 }
 /*header*/
@@ -50,18 +51,26 @@ header {
     /*background-color: #e1d67a;*/
     background-image: url('../immagini/banner.jpg');
     background-size: cover;
-    border-radius: 10px;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .rettangolo {
-    height: 100px;
-    width: 350px;
-    margin-left: 80px;
+    height: 400px;
+    width: 100%;
+    margin-left: 0;
     padding-top: 300px;
     color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+span {
+    padding-left: 30px;
+    display: inline-block;
+    padding-right: 300px;
+}
+
 
 /*main*/
 main {
@@ -106,7 +115,14 @@ main::after {
     background-image: url('../immagini/img-1.jpg');
     background-size: cover;
     border-radius: 10px;
+    
+}
+
+.rettangolo2 {
+    height: 150px;
+    width: 100%;    
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 
 }
 
@@ -135,7 +151,15 @@ main::after {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+
+}
+
+.rettangolo3 {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 /*sezione 4*/
@@ -154,9 +178,15 @@ main::after {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
+.rettangolo4 {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
 
 /*footer*/
 footer {
