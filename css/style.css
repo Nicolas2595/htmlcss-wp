@@ -9,7 +9,7 @@ body {
     margin-right: 250px;
     margin-top: 30px;
     margin-bottom: 30px;*/
-    margin: 15%;
+    margin: 0 15%;
     
 }
 /*header*/
@@ -17,6 +17,17 @@ header {
     /*height: 100px;*/
     margin-bottom: 20px;
     /*background-color: #E470FF;*/
+}
+
+/*logo*/
+#logo-container {
+    height: 85px;
+    width: 200px;
+    background-image: url('../immagini/logo.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin-bottom: 40px;
+    border-right: 1px solid grey;
 }
 
 /*nav {
@@ -39,8 +50,9 @@ header {
     /*background-color: #e1d67a;*/
     background-image: url('../immagini/banner.jpg');
     background-size: cover;
+    border-radius: 10px;
     background-position: center;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rettangolo {
@@ -93,7 +105,8 @@ main::after {
     height: 150px;
     background-image: url('../immagini/img-1.jpg');
     background-size: cover;
-    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -121,6 +134,8 @@ main::after {
     background-image: url('../immagini/banner-2.jpg');
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*sezione 4*/
@@ -138,6 +153,8 @@ main::after {
     background-image: url('../immagini/img-3.jpg');
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
