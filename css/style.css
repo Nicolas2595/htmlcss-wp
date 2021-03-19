@@ -54,7 +54,7 @@ header {
 /*main*/
 main {
     margin-top: 20px;
-    background-color: #0087fd;
+   /* background-color: #0087fd;*/
 
 }
 
@@ -76,33 +76,75 @@ main::after {
     color: grey;
 }
 
+/*sezione 2*/
 .sezione2 {
     float: left;
-    height: 300px;
+    /*height: 300px;*/
     width: 23%;
     margin-bottom: 10px;
-    background-color: #abcfe7;
+    /*background-color: #abcfe7;*/
+   /* background-image: url('../immagini/img-1.jpg');
+    background-size: cover;
+    background-position: center;*/
 }
 
+.conteiner-image1 {
+    width: auto;
+    height: 150px;
+    background-image: url('../immagini/img-1.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.testo {
+    padding-top: 10px;
+}
+
+.testo p {
+    margin-top: 5px;
+}
+
+/*sezione 3*/
 .sezione3 {
     float: left;
-    height: 300px;
+    /*height: 300px;*/
     width: 50%;
     margin-bottom: 10px;
     margin: 0 2%;
-    background-color: #abcfe7;
+    /*background-color: #abcfe7;*/
 }
 
+.conteiner-image2 {
+    height: 150px;
+    width: auto;
+    background-image: url('../immagini/banner-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*sezione 4*/
 .sezione4 {
     float: right;
-    height: 300px;
+    /*height: 300px;*/
     width: 23%;
     margin-bottom: 10px;
-    background-color: #abcfe7;
+    /*background-color: #abcfe7;*/
 }
+
+.conteiner-image3 {
+    height: 150px;
+    width: auto;
+    background-image: url('../immagini/img-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*footer*/
 footer {
     height: 50px;
-    margin-top: 10px;
-    background-color: #8801fe;
+    margin-top: 40px;
+   /* background-color: #8801fe;*/
+   text-align: center;
 }
