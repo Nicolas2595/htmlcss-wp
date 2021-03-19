@@ -69,7 +69,11 @@ main::after {
     width: 100%;
     height: 50px;
     margin-bottom: 15px;
-    background-color: #abcfe7;
+    /*background-color: #abcfe7;*/
+}
+
+.grigio {
+    color: grey;
 }
 
 .sezione2 {
